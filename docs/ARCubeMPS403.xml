@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="ARCube_SortingInline.Left" size="0.060000 0.060000"/>
+        <ImageTarget name="ARCube_SortingInline.Right" size="0.060000 0.060000"/>
+        <ImageTarget name="ARCube_SortingInline.Top" size="0.060000 0.060000"/>
+        <ImageTarget name="ARCube_SortingInline.Front" size="0.060000 0.060000"/>
+        <ImageTarget name="ARCube_SortingInline.Back" size="0.060000 0.060000"/>
+        <ImageTarget name="ARCube_Joining.Left" size="0.060000 0.060000"/>
+        <ImageTarget name="ARCube_Joining.Right" size="0.060000 0.060000"/>
+        <ImageTarget name="ARCube_Joining.Top" size="0.060000 0.060000"/>
+        <ImageTarget name="ARCube_Joining.Front" size="0.060000 0.060000"/>
+        <ImageTarget name="ARCube_Joining.Back" size="0.060000 0.060000"/>
+        <ImageTarget name="ARCube_DistributingPro.Left" size="0.060000 0.060000"/>
+        <ImageTarget name="ARCube_DistributingPro.Right" size="0.060000 0.060000"/>
+        <ImageTarget name="ARCube_DistributingPro.Top" size="0.060000 0.060000"/>
+        <ImageTarget name="ARCube_DistributingPro.Front" size="0.060000 0.060000"/>
+        <ImageTarget name="ARCube_DistributingPro.Back" size="0.060000 0.060000"/>
+        <MultiTarget name="ARCube_SortingInline">
+            <Part name="ARCube_SortingInline.Left" translation="-0.03 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="ARCube_SortingInline.Right" translation="0.03 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="ARCube_SortingInline.Front" translation="0 0 0.03" rotation="AD: 1 0 0 0"/>
+            <Part name="ARCube_SortingInline.Back" translation="0 0 -0.03" rotation="AD: 0 1 0 180"/>
+            <Part name="ARCube_SortingInline.Top" translation="0 0.03 0" rotation="AD: 1 0 0 -90"/>
+        </MultiTarget>
+        <MultiTarget name="ARCube_Joining">
+            <Part name="ARCube_Joining.Left" translation="-0.03 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="ARCube_Joining.Right" translation="0.03 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="ARCube_Joining.Front" translation="0 0 -0.03" rotation="AD: 0 1 0 180"/>
+            <Part name="ARCube_Joining.Back" translation="0 0 0.03" rotation="AD: 0 1 0 0"/>
+            <Part name="ARCube_Joining.Top" translation="0 0.03 0" rotation="AD: 1 0 0 -90"/>
+        </MultiTarget>
+        <MultiTarget name="ARCube_DistributingPro">
+            <Part name="ARCube_DistributingPro.Left" translation="-0.03 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="ARCube_DistributingPro.Right" translation="0.03 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="ARCube_DistributingPro.Front" translation="0 0 0.03" rotation="AD: 1 0 0 0"/>
+            <Part name="ARCube_DistributingPro.Back" translation="0 0 -0.03" rotation="AD: 0 1 0 180"/>
+            <Part name="ARCube_DistributingPro.Top" translation="0 0.03 0" rotation="AD: 1 0 0 -90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
